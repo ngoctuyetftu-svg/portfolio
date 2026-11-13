@@ -97,7 +97,7 @@
   }
 
   /* 5. Lightbox for project photos */
-  const imgs = [...document.querySelectorAll('body.cs .gallery img, body.cs .pics img, body.cs .mini img, body.cs .wide-fig img, body.cs .cs-hero .ph img')];
+  const imgs = [...document.querySelectorAll('body.cs .gallery img, body.cs .pics img, body.cs .mini img, body.cs .wide-fig img, body.cs .cs-hero .ph img, .design-gallery img')];
   if (imgs.length) {
     const box = document.createElement('div');
     box.className = 'lightbox';
